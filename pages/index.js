@@ -77,7 +77,7 @@ function Item({ isFirst, isLast, isReleased, hasVoted, feature }) {
       >
         {isReleased ? "✅" : "👍"}
       </button>
-      <h3 className="text font-semibold w-full text-left">{feature.title}</h3>
+      <h3 className="text-lg font-semibold w-full text-left">{feature.title}</h3>
       <div className="bg-gray-200 text-gray-700 text-sm rounded-xl px-2 ml-2">
         {feature.score}
       </div>
@@ -279,7 +279,7 @@ export default function Roadmap({ features, ip }) {
           <div className="mx-8 w-full">
             <div className="flex flex-col sm:flex-row justify-between items-center">
               <p className="flex items-center sm:my-8 mt-8 mb-2 w-full justify-center sm:justify-start">
-                <a className="font-semibold mr-1" href="https://hackclub.com">Hack Club</a>
+                <a className="font-semibold mr-1 text-lg" href="https://hackclub.com">Hack Club</a>
               </p>
               <a
                 target="_blank"
